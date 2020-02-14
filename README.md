@@ -165,9 +165,19 @@ false
 false
 ```
 
+## `Order()`
+
+```
+> a:=(1,2,3);;b:=(2,3,4);;
+> G:=Group(a,b);
+> Order(g);
+```
+
 ## `for`
 
 ```
+> a:=(1,2,3);;b:=(2,3,4);;
+> G:=Group(a,b);
 > s:=0;;
 > for g in elts do
 >   s := s + Order(g);
