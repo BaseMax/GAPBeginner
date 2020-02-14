@@ -153,3 +153,14 @@ false
 > elts[3];
 (2,4,3)
 ```
+
+## `IsSet()`
+
+```
+> IsSet([1,3,5]);
+> IsSet([1,5,3]);
+> IsSet([1,3,3]);
+true
+false
+false
+```
