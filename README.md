@@ -281,3 +281,16 @@ Z(5)^0
 > Length(w);
 34
 ```
+
+## `SortedList()`
+
+```
+> w:="supercalifragilisticexpialidocious";
+> Length(w);
+34
+> SortedList(w);
+"aaacccdeefgiiiiiiillloopprrssstuux"
+> w;
+"supercalifragilisticexpialidocious"
+```
+
