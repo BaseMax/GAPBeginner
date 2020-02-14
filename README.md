@@ -263,3 +263,21 @@ false
 > -1
 > -E(3)^2
 ```
+
+## `AsList()`
+
+```
+> AsList(GF(2)); Z(5); Z(5)^4;
+[ 0*Z(2), Z(2)^0 ]
+Z(5)
+Z(5)^0
+```
+
+## `Length()`
+
+```
+> w:="supercalifragilisticexpialidocious";
+"supercalifragilisticexpialidocious"
+> Length(w);
+34
+```
