@@ -164,3 +164,14 @@ true
 false
 false
 ```
+
+## `for`
+
+```
+> s:=0;;
+> for g in elts do
+>   s := s + Order(g);
+> od;
+> s/Length(elts);
+31/12
+```
