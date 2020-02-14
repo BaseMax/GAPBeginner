@@ -185,3 +185,64 @@ false
 > s/Length(elts);
 31/12
 ```
+
+```
+> s:=0;;
+> for g in G do
+>   s := s + Order(g);
+> od;
+> s/Size(G);
+31/12
+```
+
+```
+> s:=0;;
+> for i in [ 1 .. Length(elts) ] do
+>   s := s + Order( elts[i] );
+> od;
+> s/Length(elts);
+31/12
+```
+
+## `Sum()`
+
+```
+> Sum( List( elts, Order ) ) / Length( elts );
+31/12
+```
+
+## `Filtered()`
+
+```
+> Filtered( elts, g -> NrMovedPoints(g) = 4 );
+[ (1,2)(3,4), (1,3)(2,4), (1,4)(2,3) ]
+```
+
+## `First()`
+
+```
+> First( elts, g -> (1,2)^g = (2,3) );
+(1,2,3)
+```
+
+## `= operator`
+
+```
+> (1,2,3)^-1*(1,2)*(1,2,3)=(2,3);
+true
+```
+
+## `ForAll`
+
+```
+> ForAll( elts, g -> 1^g <> 2 );
+false
+```
+
+## `ForAny()`
+
+```
+> ForAny( elts, g -> NrMovedPoints(g) = 2 );
+false
+```
+
