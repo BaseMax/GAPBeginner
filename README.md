@@ -9,25 +9,25 @@ universe := 6*7;
 m:=[[1,2,3],[4,5,6],[7,8,9]];
 ```
 
-##  `ColorPrompt`
+##  `ColorPrompt()`
 
 ```
 ColorPrompt(true);
 ```
 
-## `LogTo`
+## `LogTo()`
 
 ```
 LogTo("gap-intro.log");
 ```
 
-## `Display`
+## `Display()`
 
 ```
 Display(m);
 ```
 
-## `Factorial`
+## `Factorial()`
 
 ```
 > Factorial(100);
@@ -36,26 +36,28 @@ Display(m);
 7223758251185210916864000000000000000000000000
 ```
 
-## `Determinant`
+## `Determinant()`
 
+```
 > Determinant(m);
 0
+```
 
-## `Factors`
+## `Factors()`
 
 ```
 > Factors(2^64-1);
 [ 3, 5, 17, 257, 641, 65537, 6700417 ]
 ```
 
-## `Filtered`
+## `Filtered()`
 
 ```
 > Filtered( [2,9,6,3,4,5], IsEvenInt);
 [ 2, 6, 4 ]
 ```
 
-## `Fibonacci`
+## `Fibonacci()`
 
 ```
 > Fibonacci(100);
