@@ -140,3 +140,16 @@ false
 > Length(elts);
 12
 ```
+
+## `Array Index`
+
+```
+> a:=(1,2,3);;b:=(2,3,4);;
+> G:=Group(a,b);
+> AsList(G);
+> elts:=last;
+> elts[1];
+()
+> elts[3];
+(2,4,3)
+```
