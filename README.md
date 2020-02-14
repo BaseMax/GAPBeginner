@@ -73,3 +73,36 @@ Display(m);
 Group([ (1,2,3), (2,3,4) ])
 ```
 
+## `Size()`
+
+```
+> a:=(1,2,3);;b:=(2,3,4);;
+> G:=Group(a,b);
+> Size(G);
+12
+```
+
+## `IsAbelian()`
+
+```
+> a:=(1,2,3);;b:=(2,3,4);;
+> G:=Group(a,b);
+> IsAbelian(G);
+false
+```
+## `StructureDescription()`
+
+```
+> a:=(1,2,3);;b:=(2,3,4);;
+> G:=Group(a,b);
+> StructureDescription(G);
+"A4"
+```
+
+## `Order()`
+
+```
+> a:=(1,2,3);;b:=(2,3,4);;
+> Order(a);
+3
+```
